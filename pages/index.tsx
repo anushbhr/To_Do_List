@@ -87,6 +87,7 @@ function Home() {
         {toDoList?.map((ele, index) => {
           return (
             <div
+              key={index}
               style={{
                 margin: "16px",
                 padding: "8px",
